@@ -21,6 +21,36 @@ another condition whenever the conditional clause of the `if` statement is
 not true. It is similar to an `else` in that it is not required to follow
 an `if` statement but differs in that it has another conditional clause
 attached to it. Let's alter our code to this:
+An `if` statement can also be followed by an `else if` statement. When an
+`else if` statement follows an `if`, the `else if` allows us to specify
+another condition whenever the conditional clause of the `if` statement is
+not true. It is similar to an `else` in that an `if` does not need to be
+followed by an `else if`. The syntax would look something like this:
+
+```java
+if (condition1 is true) {
+    // statements to execute when condition1 is true
+} else if (condition2 is true) {
+    // statements to execute when condition 2 is true
+} else {
+    // statements to execute when neither condition is true
+}
+```
+
+It should also be noted that we can have as many `else if` statements in an
+`if/else if/else` block to satisfy the number of conditions we may have. Also,
+the `else` statement is not required to follow an `else if` statement. The
+following syntax is also valid:
+
+```java
+if (condition1 is true) {
+    // statements to execute when condition1 is true
+} else if (condition2 is true) {
+    // statements to execute when condition 2 is true
+}
+```
+
+### Using Chained Conditionals
 
 ```java
 import java.util.InputMismatchException;
@@ -85,8 +115,9 @@ Enter a numeric grade from 0 - 100:
 Whew! You just passed!
 ```
 
-Note: We can have as many `else-if` statements within an `if/else-if/else` block
-of code. Consider this example:
+We mentioned before how we can have as many `else if` statements within an
+`if/else if/else` block of code. Let's look at an example with multiple
+`else if` statements:
 
 ```java
 if (grade >= 90) {
