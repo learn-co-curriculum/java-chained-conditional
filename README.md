@@ -18,12 +18,6 @@ Let's look at the `else if` statement.
 An `if` statement can also be followed by an `else if` statement. When an
 `else if` statement follows an `if`, the `else if` allows us to specify
 another condition whenever the conditional clause of the `if` statement is
-not true. It is similar to an `else` in that it is not required to follow
-an `if` statement but differs in that it has another conditional clause
-attached to it. Let's alter our code to this:
-An `if` statement can also be followed by an `else if` statement. When an
-`else if` statement follows an `if`, the `else if` allows us to specify
-another condition whenever the conditional clause of the `if` statement is
 not true. It is similar to an `else` in that an `if` does not need to be
 followed by an `else if`. The syntax would look something like this:
 
